@@ -27,7 +27,7 @@ class Solution:
 
     
     def printlist(self):
-        t1 = self.head
+        t1 = self.head     # t1 is a tail pointer 
         while(t1.next!=None):
             print(t1.data)
             t1 = t1.next
