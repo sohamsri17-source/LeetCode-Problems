@@ -2,7 +2,7 @@ class Solution(object):
     def removeDuplicates(self, nums):
         if not nums: 
             return 0
-        l = 1
+        l = 1 # Left Pointer
         count = 1
         n = len(nums)
         
@@ -17,7 +17,7 @@ class Solution(object):
                 nums[l] = nums[r]
                 l += 1
         
-        return l
+        return l 
 
         # Time Complexity = O(n)
         # Space Complexity = O(1)
